@@ -5,11 +5,13 @@
 
 .card-body {
   padding: 2rem 0 !important;
+  height: 200px;
 }
 
 .card-text {
   padding: 0.3rem 1rem;
   font-size: 1rem;
+  
 }
 
 .overflow {

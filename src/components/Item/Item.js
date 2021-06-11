@@ -5,7 +5,6 @@ import { Link } from "react-router-dom";
 
 const Item = ({ item }) => {
   return (
-  
       <div className="card text-center bg-light animate__animated animate__fadeInUp">
         <div className="overflow">
           <img

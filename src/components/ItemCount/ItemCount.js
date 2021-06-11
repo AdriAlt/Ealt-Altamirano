@@ -27,11 +27,11 @@ const ItemCount = ({ stock, initial, onAdd }) => {
     <Fragment>
       <div>
         <ButtonGroup aria-label="Basic example">
-          <Button onClick={menosCount} variant="outline-danger" size="sm">
+          <Button onClick={menosCount} variant="outline-danger" size="xs">
             -
           </Button>
           <Button variant="light" className="m-1">{count}</Button>
-          <Button onClick={masCount} variant="outline-success" size="sm">
+          <Button onClick={masCount} variant="outline-success" size="xs">
             +
           </Button>
         </ButtonGroup>
@@ -40,7 +40,7 @@ const ItemCount = ({ stock, initial, onAdd }) => {
         <Button
           onClick={() => onAdd(count)}
           variant="outline-secondary "
-          size="sm"
+          size="lg"
           className="mt-1"
         >
           Confirmar Cantidad

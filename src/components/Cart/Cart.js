@@ -36,8 +36,9 @@ const Cart = () => {
 
               {cart.map((cartItem) => (
                 <tr key={cartItem.prod.id}>
-                  <td>
-                    <MdClear onClick={() => removeItem(cartItem.prod.id)} />
+                  <td onClick={() => removeItem(cartItem.prod.id)}>
+                  
+                       Quitar
                     </td>
                   <td>
                     <img
@@ -57,7 +58,7 @@ const Cart = () => {
                 <td>Cantidad Total: {itemsTotales}</td>
                 <td>Precio Total: ${precioTotal}</td>
                 <td>
-                  <Button onClick={() => clearItems()}>Eliminar Todo</Button>
+                  <Button variant="outline-danger" onClick={() => clearItems()}>Eliminar Todo</Button>
                 </td>
               </tr>
             </tbody>

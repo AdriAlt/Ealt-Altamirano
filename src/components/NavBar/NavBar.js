@@ -29,8 +29,8 @@ const NavBar = () => {
               Banquetas
               </NavDropdown.Item>
             <NavDropdown.Divider />
-            <NavDropdown.Item as={Link} to={`/category/recibidor`}>
-              Recibidores
+            <NavDropdown.Item as={Link} to={`/category/ARQAlt`}>
+              ARQAlt
             </NavDropdown.Item>
           </NavDropdown>
         </Nav>
