@@ -1,0 +1,127 @@
+a {
+    -webkit-transition: .3s all ease;
+    -o-transition: .3s all ease;
+    transition: .3s all ease; }
+    a:hover {
+      text-decoration: none; }
+
+      .h1, .h2, .h3, .h4, .h5 {
+        font-family: "Muli", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
+
+
+        .site-section {
+            padding: 2.5em 0; }
+            @media (min-width: 768px) {
+              .site-section {
+                padding: 5em 0; } }
+            .site-section.site-section-sm {
+              padding: 4em 0; }
+
+
+              .section-sub-title {
+                font-size: 13px;
+                color: #adb5bd;
+                letter-spacing: .2em;
+                text-transform: uppercase;
+                font-weight: 700; }
+              
+              .section-title {
+                color: #000;
+                font-size: 40px;
+                font-weight: 900; }
+                @media (max-width: 991.98px) {
+                  .section-title {
+                    font-size: 30px; } }
+
+                    .product-item-2 .product-title-wrap {
+                        position: relative;
+                        z-index: 2; }
+                        .product-item-2 .product-title-wrap h2 {
+                          font-size: 2rem;
+                          font-weight: 900;
+                          color: #000;
+                          position: relative;
+                          z-index: 2;
+                          line-height: 1.2; }
+                          @media (max-width: 991.98px) {
+                            .product-item-2 .product-title-wrap h2 {
+                              font-size: 2rem; } }
+                          .product-item-2 .product-title-wrap h2 a {
+                            color: #000; }
+
+                            .product-item {
+                                text-align: center; }
+                                .product-item figure {
+                                  overflow: hidden;
+                                  position: relative;
+                                  margin-bottom: 30px; }
+                                  .product-item figure:before {
+                                    z-index: 2;
+                                    -webkit-transition: .4s all ease;
+                                    -o-transition: .4s all ease;
+                                    transition: .4s all ease;
+                                    -webkit-transform: scale(1.05);
+                                    -ms-transform: scale(1.05);
+                                    transform: scale(1.05);
+                                    position: absolute;
+                                    content: "";
+                                    border: 4px solid #f16821;
+                                    left: 20px;
+                                    right: 20px;
+                                    top: 20px;
+                                    bottom: 20px;
+                                    opacity: 0;
+                                    visibility: hidden; }
+                                  .product-item figure img {
+                                    -webkit-transition: .3s all ease;
+                                    -o-transition: .3s all ease;
+                                    transition: .3s all ease;
+                                    -webkit-transform: scale(1);
+                                    -ms-transform: scale(1);
+                                    transform: scale(1); }
+                                .product-item h3 {
+                                  font-size: 18px; }
+                                  .product-item h3 a {
+                                    color: #000; }
+                                    .product-item h3 a:hover {
+                                      color: #f16821; }
+                                .product-item p {
+                                  line-height: 1.4;
+                                  font-size: 13px; }
+                                .product-item .meta-icons {
+                                  margin-left: 5px;
+                                  margin-bottom: 5px;
+                                  margin-right: 5px;
+                                  font-size: 13px; }
+                                  .product-item .meta-icons a {
+                                    font-size: 16px;
+                                    position: relative;
+                                    top: 2px; }
+                                .product-item:hover figure:before {
+                                  opacity: 1;
+                                  visibility: visible;
+                                  -webkit-transform: scale(1);
+                                  -ms-transform: scale(1);
+                                  transform: scale(1); }
+                                .product-item:hover figure img {
+                                  -webkit-transform: scale(1.2);
+                                  -ms-transform: scale(1.2);
+                                  transform: scale(1.2); }
+                                  .product-item-2 .number {
+                                    font-size: 8rem;
+                                    font-weight: 900;
+                                    color: #e9ecef;
+                                    position: absolute;
+                                    line-height: 0;
+                                    top: 40px;
+                                    z-index: -1; }
+                                    @media (max-width: 991.98px) {
+                                      .product-item-2 .number {
+                                        left: 0px; } }
+                                        .product-item-2 .price del {
+                                            color: #adb5bd; }
+
+                                            .shadow:hover {
+                                              box-shadow: 5px 10px 20px 1px rgba(255, 255, 255, 0.273) !important;
+                                              transition: all 0.7s linear;
+                                            }
