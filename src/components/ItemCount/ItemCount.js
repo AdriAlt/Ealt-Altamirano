@@ -11,13 +11,12 @@ const ItemCount = ({ stock, initial, onAdd }) => {
     return;
   }, [initial]);
 
-  function menosCount() {
+  const resCount = () => {
     if (count !== 1) {
       setCount(count - 1);
     }
   }
-
-  function masCount() {
+  const masCount = () => {
     if (count < stock) {
       setCount(count + 1);
     }
@@ -27,7 +26,7 @@ const ItemCount = ({ stock, initial, onAdd }) => {
     <Fragment>
       <div>
         <ButtonGroup aria-label="Basic example">
-          <Button onClick={menosCount} variant="outline-danger" size="xs">
+          <Button onClick={resCount} variant="outline-danger" size="xs">
             -
           </Button>
           <Button variant="light" className="m-1">{count}</Button>

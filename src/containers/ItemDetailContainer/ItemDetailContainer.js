@@ -16,7 +16,6 @@ const ItemDetailContainer = () => {
 
   useEffect(() => {
     getItems(detailId).then((resultado) => {
-      console.log("existe?", resultado.exists);
       if (resultado.exists) {
         setItem({ id: resultado.id, ...resultado.data() });
       }

@@ -121,25 +121,26 @@ const ModalCompra = props => {
             {emailErr ? (
               <div>
                 <p>Los emails no coinciden!</p>
-                <button
+                <Button
+                  variant = "outline-secondary"
                   disabled="{true}"
                   type="submit"
-                  className="btn btn-primary mt-auto"
+                  className=" mt-auto"
                 >
                   Comprar
-                </button>
+                </Button>
               </div>
             ) : (
-              <button type="submit" className="btn btn-primary mt-auto">
+              <Button variant = "outline-info" type="submit" className="mt-auto">
                 Comprar
-              </button>
+              </Button>
             )}
           </Form>
         </fieldset>
       </Modal.Body>
       <small>{idOrden ? ` Su orden fue generada con el ID: ${idOrden}` : null}</small>
       <Modal.Footer>
-        <Button onClick={clearItems}>Cerrar</Button>
+        <Button variant = "outline-secondary" onClick={clearItems}>Cerrar</Button>
       </Modal.Footer>
     </Modal>
   );

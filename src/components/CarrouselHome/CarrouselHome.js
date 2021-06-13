@@ -18,7 +18,7 @@ const CarrouselHome = () => {
         <Carousel.Item interval={3000} className="pos">
           <img
             className="d-block w-30"
-            src="../../homeUno.jpeg"
+            src="../../homeDos.jpg"
             alt="home"
           />
           <Carousel.Caption>
@@ -28,7 +28,7 @@ const CarrouselHome = () => {
         <Carousel.Item interval={3000} className="pos">
           <img
             className="d-block w-30"
-            src="../../homeUno.jpeg"
+            src="../../homeTres.jpg"
             alt="home"
           />
           <Carousel.Caption>

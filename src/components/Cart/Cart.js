@@ -36,9 +36,8 @@ const Cart = () => {
 
               {cart.map((cartItem) => (
                 <tr key={cartItem.prod.id}>
-                  <td onClick={() => removeItem(cartItem.prod.id)}>
-                  
-                       Quitar
+                  <td>
+                    <MdClear onClick={() => removeItem(cartItem.prod.id)} />
                     </td>
                   <td>
                     <img
