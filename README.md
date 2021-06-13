@@ -4,7 +4,7 @@ Una app e-comerce que utiliza filtros para encontrar productos, construida con R
 
 ## Screenshots del proyecto
 
- (something)
+coderApp.gif
 
 ## Instrucciones de instalación y configuración
 
